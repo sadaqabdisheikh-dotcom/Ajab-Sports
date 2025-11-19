@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta basics -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Beder International Schools — We learn today, we lead tomorrow." />
+
+  <title>Beder International Schools</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicons (optional, can be updated) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><text y=%2217%22 font-size=%2218%22>📘</text></svg>">
+</head>
+<body>
+  <!-- Site header with brand and navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+       <a class="brand" href="#" aria-label="Beder International Schools Home">
+        <img src="images/Ajab.png" alt="" class="brand-logo" />
+        <span class="brand-name">Ajab Sports</span>
+         <span class="brand-name"></span>
+      </a>
+
+      <!-- Hamburger for mobile -->
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Primary navigation -->
+</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="login.html"> Login</a></li>
+          <li><a href="logout.html"> Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+   <!-- Hero section -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <h1 id="hero-title">Your States.</h1>
+        <p class="hero-sub">A global community of learners shaping the future with curiosity, courage, and character.</p>
+        <a class="btn btn-accent" href="#about">Learn More</a>
+      </div>
+    </section>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Post Feature with Upload</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button id="openPostModal" class="floating-btn">
+        <i class="fas fa-plus"></i> Add Post
+    </button>
+
+    <div id="postModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Create Post</h2>
+                <span class="close-btn">&times;</span>
+            </div>
+
+            <textarea id="postText" placeholder="What's on your mind?" rows="4"></textarea>
+
+            <div class="media-options">
+                <label for="mediaFile" class="media-upload-label">
+                    <i class="fas fa-image"></i> Add Photo/Video
+                </label>
+                <input type="file" id="mediaFile" accept="image/*,video/*" style="display: none;">
+            </div>
+            
+            <p id="fileNameDisplay" style="margin: 10px 0; font-size: 14px; color: #555;"></p>
+
+            <button id="postSubmitBtn" class="post-submit-btn">Post</button>
+        </div>
+    </div>
+
+    <div id="postFeed" class="post-feed-container">
+        <h2>Your Feed</h2>
+    </div>
+
+    <div id="reactorsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>People Who Reacted</h3>
+                <span class="close-reactors-btn">&times;</span>
+            </div>
+            <ul id="reactorsList"></ul>
+        </div>
+    </div>
+
+    <script src="pst.js"></script>
+</body>
+</html>
+
+
+
+
+
+  <main>
+
+    <!-- About us section -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">Welcome to Beder</h2>
+        <p>
+          At Beder International Schools, we believe education is a lifelong journey. Our diverse,
+          inclusive community is united by the pursuit of excellence and the commitment to nurturing
+          every student’s unique potential.
+        </p>
+        <p>
+          From inquiry-based learning to real-world projects, we equip students with the skills and
+          mindset to thrive in an ever-changing world. Guided by experienced educators and supported
+          by cutting-edge resources, Beder students grow into compassionate leaders and critical thinkers.
+        </p>
+      </div>
+    </section>
+
+    <!-- Academics section -->
+    <section id="academics" class="section" aria-labelledby="academics-title">
+      <div class="container">
+        <h2 id="academics-title">Academics</h2>
+
+        <div class="cards">
+          <!-- Card: Primary School -->
+          <article class="card">
+            <div class="card-icon">
+              <!-- Placeholder icon span populated via JS -->
+              <span class="icon-placeholder" data-icon="book" aria-hidden="true"></span>
+            </div>
+            <h3 class="card-title">Primary School</h3>
+            <p class="card-text">
+              A foundation built on curiosity and play, focusing on literacy, numeracy, and social-emotional growth
+              through engaging, student-centered learning.
+            </p>
+          </article>
+
+          <!-- Card: Secondary School -->
+          <article class="card">
+            <div class="card-icon">
+              <!-- Placeholder icon span populated via JS -->
+              <span class="icon-placeholder" data-icon="computer" aria-hidden="true"></span>
+            </div>
+            <h3 class="card-title">Secondary School</h3>
+            <p class="card-text">
+              Rigorous academics, interdisciplinary projects, and global perspectives to prepare students for higher education
+              and meaningful careers.
+            </p>
+          </article>
+
+          <!-- Card: STEM Programs -->
+          <article class="card">
+            <div class="card-icon">
+              <!-- Placeholder icon span populated via JS -->
+              <span class="icon-placeholder" data-icon="science" aria-hidden="true"></span>
+            </div>
+            <h3 class="card-title">STEM Programs</h3>
+            <p class="card-text">
+              Hands-on science, coding, robotics, and design thinking that empower learners to solve complex problems with creativity and precision.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admissions section -->
+    <section id="admissions" class="section" aria-labelledby="admissions-title">
+      <div class="container">
+        <h2 id="admissions-title">Admissions</h2>
+        <p>
+          We welcome applications from families seeking an engaging, international education. Explore our admissions
+          process, key dates, and scholarship opportunities. Our team is here to support you at every step.
+        </p>
+        <a class="btn btn-primary" href="#contact">Start Your Journey</a>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Contact</h2>
+        <p>
+          Have questions or want to schedule a visit? Reach out to our admissions office and we’ll be glad to help.
+        </p>
+        <address class="contact-details">
+          <p><strong>Email:</strong> bederinternationalschools@gmail.com</p>
+          <p><strong>Phone:</strong> +252611235302</p>
+          <p><strong>Address:</strong> Mogadishu, Somalia</p>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer with social links; icons injected by JavaScript -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="copyright">
+        © 2004 - <span id="year"></span> Beder International Schools. All rights reserved.
+      </p>
+
+      <ul class="social-links" aria-label="Social media">
+        <li>
+          <a href="https://www.facebook.com/share/1AFZxLKkyT/" target="_blank" rel="noopener noreferrer" aria-label="Beder on Facebook">
+            <span class="icon-placeholder" data-icon="facebook" aria-hidden="true"></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/BEDR_INTSCHOOLS?t=uTeaxeASTPAQLRP8Hv1inA&s=09" target="_blank" rel="noopener noreferrer" aria-label="Beder on Twitter">
+            <span class="icon-placeholder" data-icon="twitter" aria-hidden="true"></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/beder_international_schools?utm_source=qr&igsh=MXBldHRkMGx0cmcyaA==" target="_blank" rel="noopener noreferrer" aria-label="Beder on Instagram">
+            <span class="icon-placeholder" data-icon="instagram" aria-hidden="true"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
